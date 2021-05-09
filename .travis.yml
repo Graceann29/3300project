@@ -15,6 +15,6 @@ deploy:
  provider: heroku
  api_key: e0fa3ed9-3280-420a-9514-c21543572c1c
  app: agile-wave-60094
- run: "rake db:migrate"
+ run: "heroku rake db:migrate"
  on:
   all_branches: true

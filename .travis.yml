@@ -13,8 +13,8 @@ script:
  
 deploy:
  provider: heroku
- api_key: e0fa3ed9-3280-420a-9514-c21543572c1c
- app: agile-wave-60094
+ api_key: 166d6cff-eafc-4c64-9238-61b82eb45656
+ app: agile-lowlands-89868
  run: "heroku rake db:migrate"
  on:
   all_branches: true
